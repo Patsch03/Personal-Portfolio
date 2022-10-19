@@ -3,22 +3,24 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
-}
-
-ul {
+.navbarUl {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
-  float: left;
+.navbarLi {
+  float: right;
+  font-size: 25px;
 }
 
 a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
+  color: #00B7FF;
+}
+
+.navbarNav{
+  
 }
