@@ -14,13 +14,17 @@ body {
   font-size: 25px;
 }
 
-a {
+.listItemNav{
   display: block;
   padding: 8px;
   background-color: #dddddd;
   color: #00B7FF;
 }
 
-.navbarNav{
-  
+.headerForPage{
+  font-size: 36px;
+}
+
+.pageName{
+
 }
