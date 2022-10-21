@@ -26,5 +26,84 @@ body {
 }
 
 .pageName{
+  float: left;
+  font-size: 35px;
+}
+
+.info{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+.infoContainer{
+  align-content: center;
+}
+
+.contactFooter{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #dddddd;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+body{
+  background-color: bisque;
+}
+
+.NameHeader{
+  font-size: 80px;
+}
+
+
+
+.skillsContainer{
+  position: fixed;
+  top: 150px;
+  width: 200px;
+  float: left;
+}
+
+
+
+.skill{
+  font-size: 20px;
+}
+
+.skill2{
+  font-size: 20px;
+}
+
+
+.SkillTitle{
+  font-size: 36px;
+
+}
+
+li:hover { 
+  font-size: 36px; 
+}
+
+@media (max-width: 1000px) {
+  .skillsContainer{
+    position: fixed;
+    top: 500px;
+    float: none;
+    left: 370px;
+  }
+
+  .skills2Container{
+    position: fixed;
+    top:615px;
+    left:570px;
+  }
+
+  .contactFooter{
+    right: initial;
+    left: 25px;
+  }
+
 
 }

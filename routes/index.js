@@ -9,6 +9,5 @@ router.get('/', function(req, res, next) {
 
 router.get('/about', indexCtrl.aboutShow);
 router.get('/projects', indexCtrl.projectsShow);
-router.get('/contact', indexCtrl.contactShow);
 
 module.exports = router;

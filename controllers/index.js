@@ -6,12 +6,7 @@ function projectsShow(req,res){
     res.render('project');
 }
 
-function contactShow(req, res){
-    res.render('contact');
-}
-
 module.exports = {
     aboutShow,
     projectsShow,
-    contactShow,
 }
