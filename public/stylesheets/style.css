@@ -86,6 +86,26 @@ li:hover {
   font-size: 36px; 
 }
 
+.projectsHolder{
+  display: inline;
+}
+
+.project1{
+  width: 400px;
+}
+
+.project2{
+  width: 400px;
+}
+
+.project3{
+  width: 400px;
+}
+
+.project4{
+  width: 400px;
+}
+
 @media (max-width: 1000px) {
   .skillsContainer{
     position: fixed;
@@ -104,6 +124,5 @@ li:hover {
     right: initial;
     left: 25px;
   }
-
 
 }
