@@ -84,6 +84,7 @@ body{
 
 li:hover { 
   font-size: 36px; 
+  color: red;
 }
 
 .projectsHolder{
